@@ -21,6 +21,9 @@ import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicReference;
 import java.util.concurrent.locks.Lock;
 
+/**
+ * @author Aristotle Miranda
+ * */
 
 @Service
 public class SchedulerTaskService {

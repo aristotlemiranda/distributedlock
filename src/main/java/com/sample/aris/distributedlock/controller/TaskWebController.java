@@ -10,6 +10,10 @@ import org.springframework.web.bind.annotation.*;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Lock;
 
+/**
+ * @author Aristotle Miranda
+ * */
+
 @RestController
 @RequestMapping("/api/scheduler")
 public class TaskWebController {

@@ -18,6 +18,10 @@ import org.springframework.scheduling.support.CronTrigger;
 import javax.sql.DataSource;
 
 
+/**
+ * @author Aristotle Miranda
+ * */
+
 @Configuration
 @EnableScheduling
 public class SchedulerTaskConfig implements SchedulingConfigurer {
